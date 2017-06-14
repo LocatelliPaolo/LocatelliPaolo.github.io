@@ -1,15 +1,4 @@
 $( document ).ready(function() {
-    
-	$css_url_array = ["https://fonts.googleapis.com/css?family=Rokkitt","font-awesome/css/font-awesome.min.css","css/style.css"];
-	for(var i=0;i<$css_url_array.length;i++){
-	    var head  = document.getElementsByTagName('head')[0];
-	    var link  = document.createElement('link');
-	    link.rel  = 'stylesheet';
-	    link.type = 'text/css';
-	    link.href = $css_url_array[i];
-	    link.media = 'all';
-	    head.appendChild(link);
-	}
 	
 	$(".navbar .menu .item").click(function() {
 		$id = $(this).attr("id");
