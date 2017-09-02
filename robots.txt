@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
+Disallow:
 
 sitemap: http://locatellipaolo.it/sitemap.xml
